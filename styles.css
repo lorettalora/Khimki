@@ -1,0 +1,90 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom, #2e1d0e, #000);
+    color: #e5c27b;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.location {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.benefits {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cta {
+    margin-top: 20px;
+    position: relative;
+}
+
+.massage-img {
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(0.7);
+}
+
+.btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e5c27b;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d1a760;
+}
